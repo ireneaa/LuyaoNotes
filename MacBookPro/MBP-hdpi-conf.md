@@ -1,4 +1,6 @@
+## 解决MBP外接2K显示屏字体太小的问题
 **需要开启显示器的hidpi模式，类似于macbook的retina模式 那么就会在图像大小不变的情况下，看起来变的特别清晰**
+
 
 我们要修改系统目录下/System/Library/Displays/Contents/
 Resources/Overrides/，需要将SIP关闭下
