@@ -19,7 +19,7 @@ function change_aliyun_source()
     if grep -Eq "18.04" /etc/*-release; then
         cat ${PWD}/ubuntu18 > /etc/apt/sources.list
     elif grep -Eq "16.04" /etc/*-release; then
-        cat ${PWD}/ubuntu18 > /etc/apt/sources.list
+        cat ${PWD}/ubuntu16 > /etc/apt/sources.list
     fi
 }
 
